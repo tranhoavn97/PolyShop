@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_DP_Cart"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_shopping_cart_whit_24dp"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_item_cart"
+        android:title="Cart"/>
+
+    <!--<item-->
+        <!--android:icon="@drawable/ic_more_vert_white_24dp"-->
+        <!--android:title="More"-->
+        <!--app:showAsAction="always"-->
+        <!--&gt;-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_home"-->
+                <!--android:title="Home"-->
+                <!--android:icon="@drawable/ic_home_black_24dp"/>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_favorite"-->
+                <!--android:title="Favorite"-->
+                <!--android:icon="@drawable/ic_favorite_detail"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>
